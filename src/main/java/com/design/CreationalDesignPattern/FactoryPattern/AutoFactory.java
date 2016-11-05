@@ -1,4 +1,4 @@
-package com.design.FactoryPattern;
+package com.design.CreationalDesignPattern.FactoryPattern;
 
 
 import org.reflections.Reflections;
@@ -18,7 +18,7 @@ public class AutoFactory {
     }
 
     private void carLookUp() {
-        Reflections reflections = new Reflections("com.design.FactoryPattern");
+        Reflections reflections = new Reflections("com.design.CreationalDesignPattern.FactoryPattern");
         Set<Class<? extends Cars>> carClasses = reflections.getSubTypesOf(Cars.class);
         for(Class<? extends Cars> cars:carClasses){
             carMap.put(cars.getSimpleName(), cars);

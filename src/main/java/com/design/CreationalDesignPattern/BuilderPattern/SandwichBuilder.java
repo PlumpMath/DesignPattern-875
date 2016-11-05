@@ -1,5 +1,4 @@
-package BuilderPattern;
-
+package com.design.CreationalDesignPattern.BuilderPattern;
 /**
  * Created by sahilk on 04/11/16.
  */

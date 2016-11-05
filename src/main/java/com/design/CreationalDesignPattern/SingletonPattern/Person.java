@@ -1,4 +1,4 @@
-package com.design.SingletonPattern;
+package com.design.CreationalDesignPattern.SingletonPattern;
 
 /**
  * Created by sahilk on 06/11/16.

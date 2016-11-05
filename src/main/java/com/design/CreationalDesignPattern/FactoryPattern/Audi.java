@@ -1,4 +1,4 @@
-package com.design.FactoryPattern;
+package com.design.CreationalDesignPattern.FactoryPattern;
 
 /**
  * Created by sahilk on 06/11/16.
