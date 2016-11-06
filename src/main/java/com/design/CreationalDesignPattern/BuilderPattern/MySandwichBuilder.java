@@ -19,6 +19,6 @@ public class MySandwichBuilder extends SandwichBuilder {
 
     public void addMeatAndCheese() {
         sandwich.setHasMayo(true);
-        sandwich.setMeatType(MeatType.CHICKENBREST);
+        sandwich.setMeatType(MeatType.CHICKENBREST); 
     }
 }
